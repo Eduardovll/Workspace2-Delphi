@@ -14,12 +14,12 @@ type
     function GetEstado: String;
   end;
 
-  iProduto = interface
-    function SetCodigo(const Value: Integer): iProduto;
+  iProdutos = interface
+    function SetCodigo(const Value: Integer): iProdutos;
     function GetCodigo: Integer;
-    function SetDescricao(const Value: String): iProduto;
+    function SetDescricao(const Value: String): iProdutos;
     function GetDescricao: String;
-    function SetPrecoVenda(const Value: Currency): iProduto;
+    function SetPrecoVenda(const Value: Currency): iProdutos;
     function GetPrecoVenda: Currency;
   end;
 
