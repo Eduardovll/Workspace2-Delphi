@@ -49,13 +49,6 @@ type
     function GetValorTotal: Currency;
   end;
 
-   iEntity = interface
-     function Cliente: iCliente;
-     function Produto: iProduto;
-     function Pedido : iPedido;
-     function PedidoItens: iPedidoItens;
-   end;
-
 implementation
 
 end.
