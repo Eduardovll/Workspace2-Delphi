@@ -23,6 +23,32 @@ type
     function GetPrecoVenda: Currency;
   end;
 
+  iPedido = interface
+    function SetNumeroPedido(const Value: Integer): iPedido;
+    function GetNumeroPedido: Integer;
+    function SetDataEmissao(Value: TDateTime): iPedido;
+    function GetDataEmissao: TDateTime;
+    function SetCodigoCliente(const Value: Integer): iPedido;
+    function GetCodigoCliente: Integer;
+    function SetValorTotal(const Value: Currency): iPedido;
+    function GetValorTotal: Currency;
+  end;
+
+  iPedidoItens = interface
+    function SetId(const Value: Integer): iPedidoItens;
+    function GetId: Integer;
+    function SetNumeroPedido(const Value: Integer): iPedidoItens;
+    function GetNumeroPedido: Integer;
+    function SetCodigoProduto(const Value: Integer): iPedidoItens;
+    function GetCodigoProduto: Integer;
+    function SetQuantidade(const Value: Integer): iPedidoItens;
+    function GetQuantidade: Integer;
+    function SetValorUnitario(const Value: Currency): iPedidoItens;
+    function GetValorUnitario: Currency;
+    function SetValorTotal(const Value: Currency): iPedidoItens;
+    function GetValorTotal: Currency;
+  end;
+
 implementation
 
 end.
