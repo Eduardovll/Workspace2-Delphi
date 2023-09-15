@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2023/09/14 11:55:22.937,=C:\Users\Eduardo.Valle\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/09/14 11:57:56.359,C:\Users\Eduardo.Valle\Documents\Embarcadero\Studio\Projects\MVC_PEDIDOS.dproj=C:\Users\Eduardo.Valle\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2023/09/14 12:46:04.423,D:\Workspace3-Delphi\Lab-pedido-vendas-oop\src\mvcpedidos.view.principal.dfm=C:\Users\Eduardo.Valle\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/09/14 12:46:04.423,D:\Workspace3-Delphi\Lab-pedido-vendas-oop\src\mvcpedidos.view.principal.pas=C:\Users\Eduardo.Valle\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/09/14 12:48:16.767,D:\Workspace3-Delphi\Lab-pedido-vendas-oop\src\MVC_PEDIDOS.dproj=C:\Users\Eduardo.Valle\Documents\Embarcadero\Studio\Projects\MVC_PEDIDOS.dproj</Transaction>
+	<Transactions>
+    <Transaction>2023/09/14 11:55:22.000.937,=C:\Users\Eduardo.Valle\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/14 11:57:56.000.359,C:\Users\Eduardo.Valle\Documents\Embarcadero\Studio\Projects\MVC_PEDIDOS.dproj=C:\Users\Eduardo.Valle\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/09/14 12:46:04.000.423,D:\Workspace3-Delphi\Lab-pedido-vendas-oop\src\mvcpedidos.view.principal.dfm=C:\Users\Eduardo.Valle\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/09/14 12:46:04.000.423,D:\Workspace3-Delphi\Lab-pedido-vendas-oop\src\mvcpedidos.view.principal.pas=C:\Users\Eduardo.Valle\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/14 12:48:16.000.767,D:\Workspace3-Delphi\Lab-pedido-vendas-oop\src\MVC_PEDIDOS.dproj=C:\Users\Eduardo.Valle\Documents\Embarcadero\Studio\Projects\MVC_PEDIDOS.dproj</Transaction>
   </Transactions>
 </BorlandProject>

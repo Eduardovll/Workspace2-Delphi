@@ -98,10 +98,15 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="mvcpedidos.view.principal.pas">
+        <DCCReference Include="view\mvcpedidos.view.principal.pas">
             <Form>Form1</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="model\entity\mvcpedidos.model.entity.interfaces.pas"/>
+        <DCCReference Include="model\entity\impl\mvcpedidos.model.entity.impl.cliente.pas"/>
+        <DCCReference Include="model\entity\impl\mvcpedidos.model.entity.impl.produto.pas"/>
+        <DCCReference Include="model\entity\impl\mvcpedidos.model.entity.impl.pedido.pas"/>
+        <DCCReference Include="model\entity\impl\mvcpedidos.model.entity.impl.pedidoitens.pas"/>
+        <DCCReference Include="model\entity\impl\mvcpedidos.model.entity.impl.entity.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
