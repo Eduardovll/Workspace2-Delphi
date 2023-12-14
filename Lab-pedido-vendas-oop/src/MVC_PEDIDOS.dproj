@@ -107,6 +107,11 @@
         <DCCReference Include="model\entity\impl\mvcpedidos.model.entity.impl.pedido.pas"/>
         <DCCReference Include="model\entity\impl\mvcpedidos.model.entity.impl.pedidoitens.pas"/>
         <DCCReference Include="model\entity\impl\mvcpedidos.model.entity.impl.entity.pas"/>
+        <DCCReference Include="model\connection\mvcpedidos.model.connection.interfaces.pas"/>
+        <DCCReference Include="model\connection\impl\mvcpedidos.model.connection.impl.firedac.pas"/>
+        <DCCReference Include="model\connection\impl\mvcpedidos.model.connection.impl.query.pas"/>
+        <DCCReference Include="model\others\records\mvcpedidos.others.records.monitor.pas"/>
+        <DCCReference Include="model\others\records\mvcpedidos.others.records.register.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

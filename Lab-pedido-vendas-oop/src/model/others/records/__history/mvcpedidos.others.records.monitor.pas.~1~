@@ -1,0 +1,39 @@
+unit mvcpedidos.others.records.monitor;
+
+interface
+
+uses
+  System.SysUtils,
+  System.Classes;
+
+type
+  TLogMonitor = class
+  private
+  public
+    class function ReadLog(const LogFile: String; const Srings: TStrings): Boolean; virtual;
+    class function WriteLog(const LogFile, aMessage: String;
+                            const CanCreate: Boolean = True;
+                            const ClearBeforeWrite: Boolean = False;
+                            const UseDateTimeInLog: Boolean = True): Boolean;
+  end;
+
+implementation
+
+var
+  FMonitor: TMultiReadExclusiveWriteSynchronizer;
+
+
+class function TLogMonitor.ReadLog(const LogFile: String;
+  const Srings: TStrings): Boolean;
+begin
+  FMonitor.BeginRead;
+  FMonitor.EndRead;
+end;
+
+class function TLogMonitor.WriteLog(const LogFile, aMessage: String;
+  const CanCreate, ClearBeforeWrite, UseDateTimeInLog: Boolean): Boolean;
+begin
+
+end;
+
+end.

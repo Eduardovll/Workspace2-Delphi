@@ -11,7 +11,9 @@ uses
   mvcpedidos.model.entity.impl.entity in 'model\entity\impl\mvcpedidos.model.entity.impl.entity.pas',
   mvcpedidos.model.connection.interfaces in 'model\connection\mvcpedidos.model.connection.interfaces.pas',
   mvcpedidos.model.connection.impl.firedac in 'model\connection\impl\mvcpedidos.model.connection.impl.firedac.pas',
-  mvcpedidos.model.connection.impl.query in 'model\connection\impl\mvcpedidos.model.connection.impl.query.pas';
+  mvcpedidos.model.connection.impl.query in 'model\connection\impl\mvcpedidos.model.connection.impl.query.pas',
+  mvcpedidos.others.records.monitor in 'model\others\records\mvcpedidos.others.records.monitor.pas',
+  mvcpedidos.others.records.register in 'model\others\records\mvcpedidos.others.records.register.pas';
 
 {$R *.res}
 
