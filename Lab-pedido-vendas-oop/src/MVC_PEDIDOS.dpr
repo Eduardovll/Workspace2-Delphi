@@ -8,7 +8,10 @@ uses
   mvcpedidos.model.entity.impl.produto in 'model\entity\impl\mvcpedidos.model.entity.impl.produto.pas',
   mvcpedidos.model.entity.impl.pedido in 'model\entity\impl\mvcpedidos.model.entity.impl.pedido.pas',
   mvcpedidos.model.entity.impl.pedidoitens in 'model\entity\impl\mvcpedidos.model.entity.impl.pedidoitens.pas',
-  mvcpedidos.model.entity.impl.entity in 'model\entity\impl\mvcpedidos.model.entity.impl.entity.pas';
+  mvcpedidos.model.entity.impl.entity in 'model\entity\impl\mvcpedidos.model.entity.impl.entity.pas',
+  mvcpedidos.model.connection.interfaces in 'model\connection\mvcpedidos.model.connection.interfaces.pas',
+  mvcpedidos.model.connection.impl.firedac in 'model\connection\impl\mvcpedidos.model.connection.impl.firedac.pas',
+  mvcpedidos.model.connection.impl.query in 'model\connection\impl\mvcpedidos.model.connection.impl.query.pas';
 
 {$R *.res}
 
